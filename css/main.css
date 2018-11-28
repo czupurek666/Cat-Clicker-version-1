@@ -3,8 +3,7 @@ body {
  }
 
 .container {
-  /* display: flex;
-  flex-wrap: wrap; */
+
   width: 100%;
   max-width: 800px;
   margin-left: auto;
@@ -14,43 +13,57 @@ body {
   font-variant: small-caps;
   padding: 8px;
   width: 100%;
-  order: 1; }
+}
+  /* order: 1; } */
 
-.score_pannel  {
-  font-size: 1.2em;
-  padding:10px 4px;
-  float:right;
-  width: 55%;
-  order: 3;
-   }
+.oneCat {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
-.cat {
-
-  float: left;
+picture {
   width: 40%;
-  order: 2;
-   }
+}
 
 .cat_photo {
   border-radius: 8px;
   width:100%;
 }
 
-.commentPanel {
+.description {
+  flex-wrap: wrap;
+  /* float: left; */
+  width: 50%;
+  /* order: 2; */
+  font-size: 1.4em;
+  padding-left: 10px;
+ }
+
+.score_pannel  {
+   font-size: 0.9em;
+   /* float:right; */
+   width: 60%;
+   /* order: 3; */
+   }
+
+
+
+/* .commentPanel {
   font-size: 1.2em;
   padding-top: 20px;
   float:right;
-  width: 55%;
+  width: 30%;
   order: 4;
-   }
+   } */
 
-.comment {
+/* .comment {
   border-radius: 8px;
   margin-top: -5px;
   height: 200px;
   width: 100%;
   background-color: PaleTurquoise;
-}
+} */
 
 td {
   padding:4px;
